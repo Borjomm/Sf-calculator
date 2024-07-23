@@ -168,6 +168,12 @@
             "stack_size": 100
         },
         {
+            "name": "Limestone",
+            "key_name": "limestone",
+            "tier": 1,
+            "stack_size": 100
+        },
+        {
             "name": "Iron Ingot",
             "key_name": "iron-ingot",
             "tier": -1,
