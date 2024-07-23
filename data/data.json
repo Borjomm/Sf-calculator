@@ -1041,16 +1041,6 @@
             ],
             "product": ["adaptive-control-unit", 2]
         },
-	            {
-            "name": "Iron Ingot",
-            "key_name": "iron-ingot",
-            "category": "smelting1",
-            "time": 2,
-            "ingredients": [
-                ["iron-ore", 1]
-            ],
-            "product": ["iron-ingot", 1]
-        },
         {
             "name": "Copper Ingot",
             "key_name": "copper-ingot",
