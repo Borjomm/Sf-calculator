@@ -149,6 +149,12 @@
             "tier": 2,
             "stack_size": 50
         },
+	            {
+            "name": "Iron Ore",
+            "key_name": "iron-ore",
+            "tier": -1,
+            "stack_size": 100
+        },
 		{
             "name": "Versatile Framework",
             "key_name": "versatile-framework",
@@ -1034,6 +1040,16 @@
 				["computer", 2]
             ],
             "product": ["adaptive-control-unit", 2]
+        },
+	            {
+            "name": "Iron Ingot",
+            "key_name": "iron-ingot",
+            "category": "smelting1",
+            "time": 2,
+            "ingredients": [
+                ["iron-ore", 1]
+            ],
+            "product": ["iron-ingot", 1]
         },
         {
             "name": "Copper Ingot",
@@ -3049,7 +3065,7 @@
     ],
     "resources": [
         {
-            "key_name": "iron-ingot",
+            "key_name": "iron-ore",
             "category": "mineral"
         },
         {
