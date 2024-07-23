@@ -227,6 +227,18 @@
             "tier": -1,
             "stack_size": 200
         },
+	            {
+            "name": "Iron Wire",
+            "key_name": "iron-wire",
+            "tier": -1,
+            "stack_size": 500
+        },
+	            {
+            "name": "Iron Sheet",
+            "key_name": "iron-sheet",
+            "tier": -1,
+            "stack_size": 200
+        },
         {
             "name": "Wire",
             "key_name": "wire",
@@ -1148,28 +1160,6 @@
             "product": ["iron-plate", 2]
         },
         {
-            "name": "Alternate: Coated Iron Plate",
-            "key_name": "alt-coated-iron-plate",
-            "category": "crafting2",
-            "time": 12,
-            "ingredients": [
-                ["iron-ingot", 10],
-                ["plastic", 2]
-            ],
-            "product": ["iron-plate", 15]
-        },
-        {
-            "name": "Alternate: Steel Coated Plate",
-            "key_name": "alt-steel-iron-plate",
-            "category": "crafting2",
-            "time": 24,
-            "ingredients": [
-                ["steel-ingot", 3],
-                ["plastic", 2]
-            ],
-            "product": ["iron-plate", 18]
-        },
-        {
             "name": "Iron Rod",
             "key_name": "iron-rod",
             "category": "crafting1",
@@ -1179,15 +1169,35 @@
             ],
             "product": ["iron-rod", 1]
         },
-        {
-            "name": "Alternate: Steel Rod",
-            "key_name": "alt-steel-rod",
+	    {
+            "name": "Iron Wire",
+            "key_name": "iron-wire",
             "category": "crafting1",
-            "time": 5,
+            "time": 4,
             "ingredients": [
-                ["steel-ingot", 1]
+                ["iron-rod", 1]
             ],
-            "product": ["iron-rod", 4]
+            "product": ["iron-wire", 2]
+        },
+	    {
+            "name": "Alternate: Instant Iron Wire",
+            "key_name": "alt-instant-iron-wire",
+            "category": "crafting1",
+            "time": 4,
+            "ingredients": [
+                ["iron-ingot", 1]
+            ],
+            "product": ["iron-wire", 2]
+        },
+	    	    {
+            "name": "Iron Sheet",
+            "key_name": "iron-sheet",
+            "category": "crafting1",
+            "time": 6,
+            "ingredients": [
+                ["iron-plate", 2]
+            ],
+            "product": ["iron-sheet", 3]
         },
         {
             "name": "Wire",
@@ -1198,37 +1208,6 @@
                 ["copper-ingot", 1]
             ],
             "product": ["wire", 2]
-        },
-        {
-            "name": "Alternate: Iron Wire",
-            "key_name": "alt-iron-wire",
-            "category": "crafting1",
-            "time": 24,
-            "ingredients": [
-                ["iron-ingot", 5]
-            ],
-            "product": ["wire", 9]
-        },
-        {
-            "name": "Alternate: Caterium Wire",
-            "key_name": "alt-caterium-wire",
-            "category": "crafting1",
-            "time": 4,
-            "ingredients": [
-                ["caterium-ingot", 1]
-            ],
-            "product": ["wire", 8]
-        },
-        {
-            "name": "Alternate: Fused Wire",
-            "key_name": "alt-fused-wire",
-            "category": "crafting2",
-            "time": 20,
-            "ingredients": [
-                ["copper-ingot", 4],
-                ["caterium-ingot", 1]
-            ],
-            "product": ["wire", 30]
         },
         {
             "name": "Cable",
@@ -1332,29 +1311,19 @@
             "category": "crafting1",
             "time": 6,
             "ingredients": [
-                ["iron-rod", 1]
+                ["iron-rod", 2]
             ],
-            "product": ["screw", 4]
+            "product": ["screw", 5]
         },
         {
-            "name": "Alternate: Casted Screw",
-            "key_name": "alt-screw",
+            "name": "Alternate: Stamped Iron Screws",
+            "key_name": "alt-stamped-iron-screws",
             "category": "crafting1",
             "time": 24,
             "ingredients": [
                 ["iron-ingot", 5]
             ],
             "product": ["screw", 20]
-        },
-        {
-            "name": "Alternate: Steel Screw",
-            "key_name": "alt-steel-screw",
-            "category": "crafting1",
-            "time": 12,
-            "ingredients": [
-                ["steel-beam", 1]
-            ],
-            "product": ["screw", 52]
         },
         {
             "name": "Biomass",
