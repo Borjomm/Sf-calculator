@@ -816,8 +816,8 @@
             "category": "crafting2",
             "time": 12,
             "ingredients": [
-                ["bronze-beam": 12],
-		["screw": 6]
+                ["bronze-beam", 12],
+		["screw", 6]
             ],
             "product": ["bronze-frame", 1]
         },
@@ -827,8 +827,8 @@
             "category": "crafting2",
             "time": 12,
             "ingredients": [
-                ["lead-plates": 6],
-		["screw": 12]
+                ["lead-plates", 6],
+		["screw", 12]
             ],
             "product": ["lead-frame", 1]
         },
@@ -838,7 +838,7 @@
             "category": "crafting1",
             "time": 6,
             "ingredients": [
-                ["zinc-ingot": 3]
+                ["zinc-ingot", 3]
             ],
             "product": ["zinc-plate", 2]
         }
