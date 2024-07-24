@@ -143,22 +143,10 @@
         }
     ],
     "items": [
-	            {
-            "name": "Iron Ore",
-            "key_name": "iron-ore",
-            "tier": -1,
-            "stack_size": 100
-        },
 		{
             "name": "Copper Sheet",
             "key_name": "copper-sheet",
             "tier": 2,
-            "stack_size": 100
-        },
-        {
-            "name": "Copper Ore",
-            "key_name": "copper-ore",
-            "tier": 0,
             "stack_size": 100
         },
         {
@@ -355,14 +343,6 @@
         }
     ],
     "resources": [
-        {
-            "key_name": "iron-ore",
-            "category": "mineral"
-        },
-        {
-            "key_name": "copper-ore",
-            "category": "mineral"
-        },
         {
             "key_name": "coal",
             "category": "mineral"
