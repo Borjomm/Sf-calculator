@@ -840,7 +840,7 @@
             "ingredients": [
                 ["zinc-ingot", 3]
             ],
-            "product": ["zinc-plate", 2]
+            "product": ["zinc-plates", 2]
         }
     ],
     "resources": [
