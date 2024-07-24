@@ -143,28 +143,10 @@
         }
     ],
     "items": [
-		{
-            "name": "Copper Sheet",
-            "key_name": "copper-sheet",
-            "tier": 2,
-            "stack_size": 100
-        },
-        {
-            "name": "Coal",
-            "key_name": "coal",
-            "tier": 3,
-            "stack_size": 100
-        },
         {
             "name": "Iron Ingot",
             "key_name": "iron-ingot",
             "tier": -1,
-            "stack_size": 100
-        },
-        {
-            "name": "Copper Ingot",
-            "key_name": "copper-ingot",
-            "tier": 0,
             "stack_size": 100
         },
         {
@@ -189,6 +171,18 @@
             "name": "Iron Sheet",
             "key_name": "iron-sheet",
             "tier": -1,
+            "stack_size": 200
+        },
+	            {
+            "name": "Copper Ingot",
+            "key_name": "copper-ingot",
+            "tier": 0,
+            "stack_size": 100
+        },
+        {
+            "name": "Copper Rod",
+            "key_name": "copper-rod",
+            "tier": 0,
             "stack_size": 200
         },
         {
@@ -221,6 +215,18 @@
             "tier": 0,
             "stack_size": 100
         },
+	    		{
+            "name": "Water",
+            "key_name": "water",
+            "tier": 2,
+            "stack_size": 50
+        },
+	    		{
+            "name": "Copper Sheet",
+            "key_name": "copper-sheet",
+            "tier": 2,
+            "stack_size": 100
+        },
         {
             "name": "Rotor",
             "key_name": "rotor",
@@ -233,18 +239,19 @@
             "tier": 2,
             "stack_size": 50
         },
+	            {
+            "name": "Coal",
+            "key_name": "coal",
+            "tier": 3,
+            "stack_size": 100
+        },
         {
             "name": "Crude Oil",
             "key_name": "crude-oil",
             "tier": 5,
             "stack_size": 50
         },
-		{
-            "name": "Water",
-            "key_name": "water",
-            "tier": 2,
-            "stack_size": 50
-        },
+
 	        		{
             "name": "Nitrogen Gas",
             "key_name": "nitrogen-gas",
