@@ -342,7 +342,19 @@
             ],
             "product": ["screw", 20]
         },
-	            {
+	{
+            "name": "Reinforced Iron Plate",
+            "key_name": "reinforced-iron-plate",
+            "category": "crafting2",
+            "time": 12,
+            "ingredients": [
+                ["iron-wire", 6],
+		["iron-plate", 4]
+            ],
+            "product": ["reinforced-iron-plate", 1]
+        },
+
+	{
             "name": "Copper Rod",
             "key_name": "copper-rod",
             "category": "crafting1",
@@ -351,7 +363,88 @@
                 ["copper-ingot", 1]
             ],
             "product": ["copper-rod", 1]
+        },
+	{
+            "name": "Wire",
+            "key_name": "wire",
+            "category": "crafting1",
+            "time": 4,
+            "ingredients": [
+                ["copper-rod", 1]
+            ],
+            "product": ["wire", 2]
+        },
+	{
+            "name": "Alternate: Slightly Copper Wire",
+            "key_name": "alt-slightly-copper-wire",
+            "category": "crafting1",
+            "time": 12,
+            "ingredients": [
+                ["copper-sheet", 5]
+            ],
+            "product": ["wire", 12]
+        },
+	{
+            "name": "Alternate: Instant Copper Wire",
+            "key_name": "alt-instant-copper-wire",
+            "category": "crafting1",
+            "time": 4,
+            "ingredients": [
+                ["copper-ingot", 1]
+            ],
+            "product": ["wire", 2]
+        },
+	{
+            "name": "Cable",
+            "key_name": "cable",
+            "category": "crafting1",
+            "time": 4,
+            "ingredients": [
+                ["wire", 4]
+            ],
+            "product": ["cable", 2]
+        },
+	{
+            "name": "Alternate: Flat Copper Cable",
+            "key_name": "alt-flat-copper-cable",
+            "category": "crafting1",
+            "time": 2,
+            "ingredients": [
+                ["copper-sheet", 1]
+            ],
+            "product": ["cable", 1]
+        },
+	{
+            "name": "Copper Busbars",
+            "key_name": "copper-busbars",
+            "category": "crafting1",
+            "time": 6,
+            "ingredients": [
+                ["copper-ingot", 3]
+            ],
+            "product": ["copper-busbars", 2]
+        },
+	{
+            "name": "Copper Sheet",
+            "key_name": "copper-sheet",
+            "category": "crafting1",
+            "time": 6,
+            "ingredients": [
+                ["copper-busbars", 2]
+            ],
+            "product": ["copper-sheet", 3]
+        },
+	{
+            "name": "Copper Pipes",
+            "key_name": "copper-pipes",
+            "category": "crafting1",
+            "time": 3,
+            "ingredients": [
+                ["copper-busbars", 2]
+            ],
+            "product": ["copper-pipes", 1]
         }
+
     ],
     "resources": [
         {
