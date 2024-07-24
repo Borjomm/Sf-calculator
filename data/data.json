@@ -245,24 +245,6 @@
             "tier": 2,
             "stack_size": 50
         },
-        {
-            "name": "Caterium Ore",
-            "key_name": "caterium-ore",
-            "tier": 3,
-            "stack_size": 100
-        },
-        {
-            "name": "Raw Quartz",
-            "key_name": "raw-quartz",
-            "tier": 4,
-            "stack_size": 100
-        },
-        {
-            "name": "Sulfur",
-            "key_name": "sulfur",
-            "tier": 4,
-            "stack_size": 100
-        },
 	        		{
             "name": "Nitrogen Gas",
             "key_name": "nitrogen-gas",
@@ -345,18 +327,6 @@
     "resources": [
         {
             "key_name": "coal",
-            "category": "mineral"
-        },
-        {
-            "key_name": "caterium-ore",
-            "category": "mineral"
-        },
-        {
-            "key_name": "sulfur",
-            "category": "mineral"
-        },
-        {
-            "key_name": "raw-quartz",
             "category": "mineral"
         },
         {
