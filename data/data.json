@@ -275,23 +275,11 @@
             "tier": 4,
             "stack_size": 100
         },
-        {
-            "name": "Bauxite",
-            "key_name": "bauxite",
-            "tier": 7,
-            "stack_size": 100
-        },
 	        		{
             "name": "Nitrogen Gas",
             "key_name": "nitrogen-gas",
             "tier": 8,
             "stack_size": 50
-        },
-        {
-            "name": "Uranium",
-            "key_name": "uranium",
-            "tier": 8,
-            "stack_size": 100
         }
     ],
     "recipes": [
@@ -394,14 +382,6 @@
         {
             "key_name": "crude-oil",
             "category": "oil"
-        },
-        {
-            "key_name": "bauxite",
-            "category": "mineral"
-        },
-        {
-            "key_name": "uranium",
-            "category": "mineral"
         },
 		    {
             "key_name": "water",
