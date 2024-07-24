@@ -653,17 +653,6 @@
             "product": ["tin-rod", 1]
         },
 	{
-            "name": "Tin Plates",
-            "key_name": "tin-plates",
-            "category": "crafting1",
-            "time": 6,
-            "ingredients": [
-                ["tin-ingot", 3]
-            ],
-            "product": ["tin-plates", 2]
-        },
-
-	{
             "name": "Tin Wire",
             "key_name": "tin-wire",
             "category": "crafting1",
