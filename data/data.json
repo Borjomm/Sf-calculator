@@ -226,12 +226,98 @@
             "key_name": "copper-pipes",
             "tier": 0,
             "stack_size": 200
-        }, 
+        },
+        {
+            "name": "Crushed Stone",
+            "key_name": "crushed-stone",
+            "tier": 1,
+            "stack_size": 500
+        },
+        {
+            "name": "Sand",
+            "key_name": "sand",
+            "tier": 1,
+            "stack_size": 500
+        },
+        {
+            "name": "Glass",
+            "key_name": "glass",
+            "tier": 1,
+            "stack_size": 200
+        },
+
         {
             "name": "Concrete",
             "key_name": "concrete",
             "tier": 0,
             "stack_size": 500
+        },
+        {
+            "name": "Tin Ingot",
+            "key_name": "tin-ingot",
+            "tier": 1,
+            "stack_size": 200
+        },
+        {
+            "name": "Tin Plates",
+            "key_name": "tin-plates",
+            "tier": 1,
+            "stack_size": 200
+        },
+        {
+            "name": "Tin Rod",
+            "key_name": "tin-rod",
+            "tier": 1,
+            "stack_size": 200
+        },
+        {
+            "name": "Tin Wire",
+            "key_name": "tin-wire",
+            "tier": 1,
+            "stack_size": 500
+        },
+        {
+            "name": "Tin Sheet",
+            "key_name": "tin-sheet",
+            "tier": 1,
+            "stack_size": 200
+        },
+        {
+            "name": "Lead Ingot",
+            "key_name": "lead-ingot",
+            "tier": 1,
+            "stack_size": 200
+        },
+        {
+            "name": "Lead Plates",
+            "key_name": "lead-plates",
+            "tier": 1,
+            "stack_size": 200
+        },
+        {
+            "name": "Lead Sheet",
+            "key_name": "lead-sheet",
+            "tier": 1,
+            "stack_size": 200
+        },
+        {
+            "name": "Simple Conveyor Belt",
+            "key_name": "simple-conveyor-belt",
+            "tier": 1,
+            "stack_size": 200
+        },
+        {
+            "name": "Rotor",
+            "key_name": "rotor",
+            "tier": 1,
+            "stack_size": 200
+        },
+
+        {
+            "name": "Modular Frame",
+            "key_name": "modular-frame",
+            "tier": 1,
+            "stack_size": 100
         },
 	    		{
             "name": "Water",
@@ -443,6 +529,149 @@
                 ["copper-busbars", 2]
             ],
             "product": ["copper-pipes", 1]
+        },
+	{
+            "name": "Concrete",
+            "key_name": "concrete",
+            "category": "crafting1",
+            "time": 3,
+            "ingredients": [
+                ["crushed-stone", 3]
+            ],
+            "product": ["concrete", 1]
+        },
+	{
+            "name": "Sand",
+            "key_name": "sand",
+            "category": "crafting1",
+            "time": 4,
+            "ingredients": [
+                ["crushed-stone", 4]
+            ],
+            "product": ["sand", 2]
+        },
+	{
+            "name": "Glass",
+            "key_name": "glass",
+            "category": "smelting1",
+            "time": 6,
+            "ingredients": [
+                ["sand", 3]
+            ],
+            "product": ["glass", 2]
+        },
+	{
+            "name": "Tin Plates",
+            "key_name": "tin-plates",
+            "category": "crafting1",
+            "time": 6,
+            "ingredients": [
+                ["tin-ingot", 3]
+            ],
+            "product": ["tin-plates", 2]
+        },
+	{
+            "name": "Tin Rod",
+            "key_name": "tin-rod",
+            "category": "crafting1",
+            "time": 4,
+            "ingredients": [
+                ["tin-ingot", 1]
+            ],
+            "product": ["tin-rod", 1]
+        },
+	{
+            "name": "Tin Plates",
+            "key_name": "tin-plates",
+            "category": "crafting1",
+            "time": 6,
+            "ingredients": [
+                ["tin-ingot", 3]
+            ],
+            "product": ["tin-plates", 2]
+        },
+	{
+            "name": "Tin Wire",
+            "key_name": "tin-wire",
+            "category": "crafting1",
+            "time": 4,
+            "ingredients": [
+                ["tin-rod", 1]
+            ],
+            "product": ["tin-wire", 2]
+        },
+	{
+            "name": "Alternate: Instant Tin Wire",
+            "key_name": "alt-instant-tin-wire",
+            "category": "crafting1",
+            "time": 4,
+            "ingredients": [
+                ["tin-ingot", 1]
+            ],
+            "product": ["tin-wire", 2]
+        },
+	{
+            "name": "Tin Sheet",
+            "key_name": "tin-sheet",
+            "category": "crafting1",
+            "time": 6,
+            "ingredients": [
+                ["tin-plates", 2]
+            ],
+            "product": ["tin-sheet", 3]
+        },
+	{
+            "name": "Lead Plates",
+            "key_name": "lead-plates",
+            "category": "crafting1",
+            "time": 6,
+            "ingredients": [
+                ["lead-ingot", 3]
+            ],
+            "product": ["lead-plates", 2]
+        },
+	{
+            "name": "Lead Sheet",
+            "key_name": "lead-sheet",
+            "category": "crafting1",
+            "time": 6,
+            "ingredients": [
+                ["lead-plates", 2]
+            ],
+            "product": ["lead-sheet", 3]
+        },
+	{
+            "name": "Simple Conveyor Belt",
+            "key_name": "simple-conveyor-belt",
+            "category": "crafting2",
+            "time": 12,
+            "ingredients": [
+                ["reinforced-iron-plate", 1],
+		["tin-sheet", 6]
+            ],
+            "product": ["simple-conveyor-belt", 4]
+        },
+	{
+            "name": "Rotor",
+            "key_name": "rotor",
+            "category": "crafting2",
+            "time": 12,
+            "ingredients": [
+                ["copper-busbars", 4],
+		["lead-sheet", 6]
+            ],
+            "product": ["rotor", 1]
+        },
+	{
+            "name": "Modular Frame",
+            "key_name": "modular-frame",
+            "category": "crafting2",
+            "time": 6,
+            "ingredients": [
+                ["reinforced-iron-plate", 1],
+		["iron-rod", 4]
+            ],
+            "product": ["modular-frame", 2]
         }
 
     ],
