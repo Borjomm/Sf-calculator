@@ -300,25 +300,6 @@
             "tier": 1,
             "stack_size": 200
         },
-        {
-            "name": "Simple Conveyor Belt",
-            "key_name": "simple-conveyor-belt",
-            "tier": 1,
-            "stack_size": 200
-        },
-        {
-            "name": "Rotor",
-            "key_name": "rotor",
-            "tier": 1,
-            "stack_size": 200
-        },
-
-        {
-            "name": "Modular Frame",
-            "key_name": "modular-frame",
-            "tier": 1,
-            "stack_size": 100
-        },
 	    		{
             "name": "Water",
             "key_name": "water",
@@ -326,6 +307,12 @@
             "stack_size": 50
         },
         {
+            "name": "Simple Conveyor Belt",
+            "key_name": "simple-conveyor-belt",
+            "tier": 2,
+            "stack_size": 200
+        },
+        {
             "name": "Rotor",
             "key_name": "rotor",
             "tier": 2,
@@ -337,6 +324,85 @@
             "tier": 2,
             "stack_size": 50
         },
+        {
+            "name": "Caterium Ingot",
+            "key_name": "caterium-ingot",
+            "tier": 2,
+            "stack_size": 200
+        },
+        {
+            "name": "Caterium Plates",
+            "key_name": "caterium-plates",
+            "tier": 2,
+            "stack_size": 200
+        },
+        {
+            "name": "Caterium Rod",
+            "key_name": "caterium-rod",
+            "tier": 2,
+            "stack_size": 200
+        },
+        {
+            "name": "Quickwire",
+            "key_name": "quickwire",
+            "tier": 2,
+            "stack_size": 500
+        },
+        {
+            "name": "Caterium Sheet",
+            "key_name": "caterium-sheet",
+            "tier": 2,
+            "stack_size": 200
+        },
+        {
+            "name": "Bronze Ingot",
+            "key_name": "bronze-ingot",
+            "tier": 2,
+            "stack_size": 200
+        },
+        {
+            "name": "Bronze Plates",
+            "key_name": "bronze-plates",
+            "tier": 2,
+            "stack_size": 200
+        },
+        {
+            "name": "Bronze Pipes",
+            "key_name": "bronze-pipes",
+            "tier": 2,
+            "stack_size": 200
+        },
+        {
+            "name": "Bronze Beam",
+            "key_name": "bronze-beam",
+            "tier": 2,
+            "stack_size": 200
+        },
+        {
+            "name": "Bronze Frame",
+            "key_name": "bronze-frame",
+            "tier": 2,
+            "stack_size": 100
+        },
+        {
+            "name": "Lead Frame",
+            "key_name": "lead-frame",
+            "tier": 2,
+            "stack_size": 200
+        },
+        {
+            "name": "Zinc Ingot",
+            "key_name": "zinc-ingot",
+            "tier": 2,
+            "stack_size": 200
+        },
+        {
+            "name": "Zinc Plates",
+            "key_name": "zinc-plates",
+            "tier": 2,
+            "stack_size": 200
+        },
+
 	            {
             "name": "Coal",
             "key_name": "coal",
@@ -590,6 +656,7 @@
             ],
             "product": ["tin-plates", 2]
         },
+
 	{
             "name": "Tin Wire",
             "key_name": "tin-wire",
@@ -672,8 +739,109 @@
 		["iron-rod", 4]
             ],
             "product": ["modular-frame", 2]
+        },
+	{
+            "name": "Caterium Plates",
+            "key_name": "caterium-plates",
+            "category": "crafting1",
+            "time": 6,
+            "ingredients": [
+                ["caterium-ingot", 3]
+            ],
+            "product": ["caterium-plates", 2]
+        },
+	{
+            "name": "Caterium Rod",
+            "key_name": "caterium-rod",
+            "category": "crafting1",
+            "time": 4,
+            "ingredients": [
+                ["caterium-ingot", 1]
+            ],
+            "product": ["caterium-rod", 1]
+        },
+	{
+            "name": "Quickwire",
+            "key_name": "quickwire",
+            "category": "crafting1",
+            "time": 4,
+            "ingredients": [
+                ["caterium-rod", 1]
+            ],
+            "product": ["quickwire", 2]
+        },
+	{
+            "name": "Caterium Sheet",
+            "key_name": "caterium-sheet",
+            "category": "crafting1",
+            "time": 6,
+            "ingredients": [
+                ["caterium-plates", 2]
+            ],
+            "product": ["caterium-sheet", 3]
+        },
+	{
+            "name": "Bronze Plates",
+            "key_name": "bronze-plates",
+            "category": "crafting1",
+            "time": 6,
+            "ingredients": [
+                ["bronze-ingot", 3]
+            ],
+            "product": ["bronze-plates", 2]
+        },
+	{
+            "name": "Bronze Pipes",
+            "key_name": "bronze-pipes",
+            "category": "crafting1",
+            "time": 3,
+            "ingredients": [
+                ["bronze-plates", 2]
+            ],
+            "product": ["bronze-pipes", 1]
+        },
+	{
+            "name": "Bronze Beam",
+            "key_name": "bronze-beam",
+            "category": "crafting1",
+            "time": 2,
+            "ingredients": [
+                ["bronze-ingot", 2]
+            ],
+            "product": ["bronze-beam", 3]
+        },
+	{
+            "name": "Bronze Frame",
+            "key_name": "bronze-frame",
+            "category": "crafting2",
+            "time": 12,
+            "ingredients": [
+                ["bronze-beam": 12],
+		["screw": 6]
+            ],
+            "product": ["bronze-frame", 1]
+        },
+	{
+            "name": "Bronze Frame",
+            "key_name": "bronze-frame",
+            "category": "crafting2",
+            "time": 12,
+            "ingredients": [
+                ["lead-plates": 6],
+		["screw": 12]
+            ],
+            "product": ["lead-frame", 1]
+        },
+	{
+            "name": "Zinc Plates",
+            "key_name": "zinc-plates",
+            "category": "crafting1",
+            "time": 6,
+            "ingredients": [
+                ["zinc-ingot": 3]
+            ],
+            "product": ["zinc-plate", 2]
         }
-
     ],
     "resources": [
         {
