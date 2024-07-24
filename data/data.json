@@ -216,22 +216,10 @@
             "stack_size": 200
         },
         {
-            "name": "Biomass",
-            "key_name": "biomass",
-            "tier": 0,
-            "stack_size": 200
-        },
-        {
             "name": "Concrete",
             "key_name": "concrete",
             "tier": 0,
             "stack_size": 500
-        },
-        {
-            "name": "Limestone",
-            "key_name": "limestone",
-            "tier": 0,
-            "stack_size": 100
         },
         {
             "name": "Screw",
@@ -389,10 +377,6 @@
         },
         {
             "key_name": "coal",
-            "category": "mineral"
-        },
-        {
-            "key_name": "limestone",
             "category": "mineral"
         },
         {
