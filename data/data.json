@@ -402,6 +402,12 @@
             "tier": 2,
             "stack_size": 200
         },
+        {
+            "name": "Smart Plating",
+            "key_name": "smart-plating",
+            "tier": 2,
+            "stack_size": 200
+        },
 
 	            {
             "name": "Coal",
@@ -841,6 +847,17 @@
                 ["zinc-ingot", 3]
             ],
             "product": ["zinc-plates", 2]
+        },
+	{
+            "name": "Smart Plating",
+            "key_name": "smart-plating",
+            "category": "crafting2",
+            "time": 12,
+            "ingredients": [
+                ["zinc-plates", 20],
+		["bronze-frame", 1]
+            ],
+            "product": ["smart-plating", 1]
         }
     ],
     "resources": [
